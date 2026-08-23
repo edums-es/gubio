@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <script>
+      // Ensure window.fetch is safely rewritable if any runtime/sandbox attempts to patch or wrap it
+      (function () {
+        try {
+          const originalFetch = window.fetch;
+          let currentFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get() {
+              return currentFetch;
+            },
+            set(newFetch) {
+              currentFetch = newFetch;
+            },
+            configurable: true,
+            enumerable: true,
+          });
+        } catch (e) {
+          // Ignore if already configurable
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gubio Heringer 36181 | Deputado Estadual ES - O Homem do Povo</title>
+    <meta name="description" content="Site oficial da campanha de Gubio Heringer 36181 para Deputado Estadual pelo Espírito Santo. Conheça as propostas, participe e vote 36181." />
+    <meta property="og:title" content="Gubio Heringer 36181 | Deputado Estadual ES" />
+    <meta property="og:description" content="O Homem do Povo. Juntos por um Espírito Santo mais justo, forte e desenvolvido. Vote 36181!" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#F8FAFC] text-[#1C2B45] font-sans antialiased selection:bg-[#1E9BD7] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
