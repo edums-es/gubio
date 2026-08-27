@@ -16,6 +16,10 @@
   }
 }
 
+.font-hero {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+}
+
 @keyframes campaign-marquee {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
@@ -47,12 +51,6 @@
 
 .reference-marquee { animation: campaign-marquee 20s linear infinite; width: max-content; }
 
-@keyframes reference-pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(79, 195, 201, .5); }
-  50% { box-shadow: 0 0 20px 5px rgba(79, 195, 201, .3); }
-}
-
-.reference-pulse { animation: reference-pulse-glow 3s ease-in-out infinite; }
 
 @media (prefers-reduced-motion: reduce) {
   .campaign-marquee-track { animation: none; }
