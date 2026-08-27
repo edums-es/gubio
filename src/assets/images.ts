@@ -1,11 +1,17 @@
-import heroPortrait from './images/gubio_hero_portrait_1787449418496.jpg';
-import communityPhoto from './images/gubio_community_es_1787449429412.jpg';
-import esLandscape from './images/es_landscape_convento_1787449439418.jpg';
-import rallyPhoto from './images/gubio_rally_es_1787449452660.jpg';
+import heroPortrait from './images/real/tric0092.jpg';
+import communityPhoto from './images/real/tric0035.jpg';
+import esLandscape from './images/real/tric0056.jpg';
+import rallyPhoto from './images/real/tric0103.jpg';
+import logo from './images/gubio-logo-cropped.png';
+import santinho from './images/santinho-oficial.jpeg';
+import heroCutout from './images/gubio-hero-cutout-v2.png';
 
 export const CampaignImages = {
   heroPortrait,
   communityPhoto,
   esLandscape,
   rallyPhoto,
+  logo,
+  santinho,
+  heroCutout,
 };
