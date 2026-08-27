@@ -15,6 +15,7 @@ const cards = [
   { title: 'Agricultura Forte', description: 'Investimento direto no produtor rural e modernização sustentável das lavouras capixabas.', image: CampaignImages.rallyPhoto },
   { title: 'Saúde para Todos', description: 'Levar atendimento de qualidade às comunidades mais distantes do interior do estado.', image: CampaignImages.communityPhoto },
   { title: 'Infraestrutura', description: 'Estradas, transporte e conectividade para integrar o campo às oportunidades da cidade.', image: CampaignImages.esLandscape },
+  { title: 'Cavalgadas', description: 'Valorização das tradições do campo, da cultura sertaneja e dos encontros que movimentam o interior capixaba.', image: CampaignImages.horsemanPhoto },
 ];
 
 export const ReferenceLanding: React.FC = () => (
@@ -39,11 +40,11 @@ export const ReferenceLanding: React.FC = () => (
         <div className="flex flex-col items-start justify-between md:flex-row">
           <div className="w-full lg:translate-y-44">
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-gray-300 md:text-sm">Deputado Estadual | Espírito Santo</p>
-            <h1 className="flex max-w-3xl flex-col font-hero text-6xl font-black uppercase leading-[0.86] tracking-[-0.06em] md:text-7xl lg:text-[8.5rem]">
-              <span>Gubio</span>
-              <span className="text-white/90">Heringer</span>
+            <h1 className="flex max-w-3xl flex-col font-hero font-black uppercase leading-[0.86] tracking-[-0.06em]">
+              <span className="text-6xl md:text-7xl lg:text-[8.5rem]">Gubio</span>
+              <span className="text-5xl text-white/90 md:text-6xl lg:text-[5.8rem]">Heringer</span>
             </h1>
-            <div className="mt-5"><span className="font-hero text-5xl font-black tracking-[-0.06em] text-[#4FC3C9] md:text-6xl">{CANDIDATE_INFO.number}</span></div>
+            <div className="mt-5"><span className="font-hero text-6xl font-black tracking-[-0.06em] text-[#4FC3C9] md:text-7xl lg:text-[8.5rem]">{CANDIDATE_INFO.number}</span></div>
           </div>
         </div>
       </div>
@@ -70,7 +71,7 @@ export const ReferenceLanding: React.FC = () => (
     </section>
 
     <section id="propostas" className="bg-[#1C2B45] px-6 py-24">
-      <div className="mx-auto max-w-7xl"><h2 className="mb-16 text-center font-heading text-4xl font-bold uppercase md:text-6xl">Nossas Propostas</h2><div className="grid gap-8 md:grid-cols-3">
+      <div className="mx-auto max-w-7xl"><h2 className="mb-16 text-center font-heading text-4xl font-bold uppercase md:text-6xl">Nossas Propostas</h2><div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
         {cards.map((card) => <article key={card.title} className="group cursor-pointer overflow-hidden rounded-[2rem] border border-[#334665] bg-[#243553] shadow-xl"><div className="relative aspect-[4/5] overflow-hidden"><img className="h-full w-full object-cover grayscale transition duration-700 group-hover:scale-110 group-hover:grayscale-0" src={card.image} alt="" /><div className="absolute inset-0 bg-gradient-to-t from-[#1C2B45] via-transparent to-transparent opacity-80" /><div className="absolute bottom-0 left-0 p-8"><h3 className="mb-2 font-heading text-2xl font-bold uppercase">{card.title}</h3><p className="text-sm text-gray-300">{card.description}</p></div></div></article>)}
       </div></div>
     </section>
