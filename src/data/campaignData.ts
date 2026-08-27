@@ -10,11 +10,11 @@ export const CANDIDATE_INFO = {
   stateAbbr: 'ES',
   slogan: 'O Homem do Povo',
   subSlogan: 'Trabalho de Verdade pelo Espírito Santo',
-  whatsappUrl: 'https://wa.me/5527999993618?text=Ol%C3%A1%2C%20quero%20apoiar%20a%20campanha%20de%20Gubio%20Heringer%2036181!',
+  whatsappUrl: 'https://wa.me/5527997036181?text=Ol%C3%A1%2C%20quero%20falar%20com%20a%20assessoria%20da%20campanha%20de%20Gubio%20Heringer%2036181!',
   instagramUrl: 'https://instagram.com/gubioheringer36181',
   facebookUrl: 'https://facebook.com/gubioheringeroficial',
   youtubeUrl: 'https://youtube.com/@gubioheringer36181',
-  cnpj: '54.912.834/0001-92',
+  cnpj: '68.344.839/0001-80',
 };
 
 export const ES_MUNICIPALITIES = [

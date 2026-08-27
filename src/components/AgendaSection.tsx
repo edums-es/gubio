@@ -14,7 +14,7 @@ export const AgendaSection: React.FC = () => {
     const text = encodeURIComponent(
       `Olá! Gostaria de confirmar minha presença no evento: "${eventTitle}" em ${eventCity}/ES com Gubio Heringer 36181!`
     );
-    window.open(`https://wa.me/5527999993618?text=${text}`, '_blank');
+    window.open(`https://wa.me/5527997036181?text=${text}`, '_blank');
   };
 
   return (
