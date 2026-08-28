@@ -40,11 +40,13 @@ export const ReferenceLanding: React.FC = () => (
         <div className="flex flex-col items-start justify-between md:flex-row">
           <div className="w-full lg:translate-y-52">
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-gray-300 md:text-sm">Deputado Estadual, Espírito Santo</p>
-            <h1 className="flex max-w-3xl flex-col font-hero font-black uppercase leading-[0.86] tracking-[-0.06em]">
-              <span className="text-6xl md:text-7xl lg:text-[9rem]">Gubio</span>
-              <span className="text-5xl text-white/90 md:text-6xl lg:text-[5.3rem]">Heringer</span>
-            </h1>
-            <div className="mt-5"><span className="font-hero text-6xl font-black tracking-[-0.06em] text-[#4FC3C9] md:text-7xl lg:text-[9rem]">{CANDIDATE_INFO.number}</span></div>
+            <div className="lg:flex lg:items-end lg:gap-8">
+              <h1 className="flex max-w-3xl flex-col font-hero font-black uppercase leading-[0.86] tracking-[-0.06em]">
+                <span className="text-6xl md:text-7xl lg:text-[9rem]">Gubio</span>
+                <span className="text-4xl text-white/90 md:text-6xl lg:text-[5.3rem]">Heringer</span>
+              </h1>
+              <div className="mt-5 lg:mb-[-0.12em] lg:mt-0"><span className="font-hero text-6xl font-black tracking-[-0.06em] text-[#4FC3C9] md:text-7xl lg:text-[9rem]">{CANDIDATE_INFO.number}</span></div>
+            </div>
           </div>
         </div>
       </div>
