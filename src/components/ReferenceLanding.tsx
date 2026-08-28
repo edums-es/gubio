@@ -38,13 +38,13 @@ export const ReferenceLanding: React.FC = () => (
       </div>
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pt-20">
         <div className="flex flex-col items-start justify-between md:flex-row">
-          <div className="w-full lg:translate-y-44">
-            <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-gray-300 md:text-sm">Deputado Estadual | Espírito Santo</p>
+          <div className="w-full lg:translate-y-52">
+            <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-gray-300 md:text-sm">Deputado Estadual, Espírito Santo</p>
             <h1 className="flex max-w-3xl flex-col font-hero font-black uppercase leading-[0.86] tracking-[-0.06em]">
-              <span className="text-6xl md:text-7xl lg:text-[8.5rem]">Gubio</span>
-              <span className="text-5xl text-white/90 md:text-6xl lg:text-[5.8rem]">Heringer</span>
+              <span className="text-6xl md:text-7xl lg:text-[9rem]">Gubio</span>
+              <span className="text-5xl text-white/90 md:text-6xl lg:text-[5.3rem]">Heringer</span>
             </h1>
-            <div className="mt-5"><span className="font-hero text-6xl font-black tracking-[-0.06em] text-[#4FC3C9] md:text-7xl lg:text-[8.5rem]">{CANDIDATE_INFO.number}</span></div>
+            <div className="mt-5"><span className="font-hero text-6xl font-black tracking-[-0.06em] text-[#4FC3C9] md:text-7xl lg:text-[9rem]">{CANDIDATE_INFO.number}</span></div>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ export const ReferenceLanding: React.FC = () => (
           <div className="space-y-6"><h3 className="font-heading text-3xl font-bold uppercase">Raízes na terra, visão para o futuro</h3><p className="text-lg leading-relaxed text-gray-300">Nascido e criado no coração do Espírito Santo, Gubio Heringer carrega na pele a história do trabalhador. Décadas de dedicação à agricultura familiar moldaram um líder que entende as reais necessidades do nosso estado.</p><a href="#propostas" className="reference-link inline-block text-sm font-bold uppercase tracking-widest">Ler biografia completa</a></div>
         </div>
         <div className="grid items-center gap-12 md:grid-cols-2">
-          <div className="order-2 space-y-6 md:order-1"><h3 className="font-heading text-3xl font-bold uppercase">Compromisso com quem trabalha</h3><p className="text-lg leading-relaxed text-gray-300">Da roça ao plenário, a luta de Gubio tem sido a mesma: garantir que a voz do povo seja ouvida. Sua trajetória é marcada por ações concretas em defesa da saúde pública, da educação e do desenvolvimento regional.</p><a href="#apoie" className="reference-link inline-block text-sm font-bold uppercase tracking-widest">Conhecer a trajetória</a></div>
+          <div className="order-2 space-y-6 md:order-1"><h3 className="font-heading text-3xl font-bold uppercase">Compromisso com quem trabalha</h3><p className="text-lg leading-relaxed text-gray-300">Da roça ao plenário, Gubio trabalha para garantir que a voz do povo seja ouvida. Sua trajetória é marcada por ações concretas em defesa da saúde pública, da educação e do desenvolvimento regional.</p><a href="#apoie" className="reference-link inline-block text-sm font-bold uppercase tracking-widest">Conhecer a trajetória</a></div>
           <div className="group relative order-1 md:order-2"><div className="absolute -inset-4 rounded-[3rem] bg-[#F2A0C6]/20 opacity-0 blur-2xl transition-opacity group-hover:opacity-100" /><img className="relative h-[500px] w-full rounded-[3rem] object-cover shadow-2xl transition duration-500 group-hover:scale-[1.02]" src={CampaignImages.esLandscape} alt="Gubio Heringer em retrato oficial" /></div>
         </div>
       </div>
@@ -82,7 +82,7 @@ export const ReferenceLanding: React.FC = () => (
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col justify-between gap-10 border-b border-[#334665] pb-10 md:flex-row md:items-start">
           <div>
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#4FC3C9]">Deputado Estadual · Espírito Santo</p>
+            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-[#4FC3C9]">Deputado Estadual, Espírito Santo</p>
             <p className="text-4xl font-black uppercase leading-[0.86] tracking-[-0.06em] text-white sm:text-5xl">Gubio<br /><span className="text-[#4FC3C9]">Heringer</span></p>
             <p className="mt-3 text-xl font-extrabold tracking-[-0.04em] text-[#4FC3C9]">{CANDIDATE_INFO.number}</p>
           </div>
@@ -93,10 +93,10 @@ export const ReferenceLanding: React.FC = () => (
           </div>
         </div>
         <div className="flex flex-col gap-5 pt-8 text-sm leading-relaxed text-white/70 md:flex-row md:items-end md:justify-between">
-          <p>Gubio Heringer — Candidato a Deputado Estadual pelo Espírito Santo.<br />Site mantido pela equipe de comunicação da campanha.</p>
+          <p>Gubio Heringer, candidato a Deputado Estadual pelo Espírito Santo.<br />Site mantido pela equipe de comunicação da campanha.</p>
           <div className="text-left text-xs font-semibold uppercase tracking-[0.08em] text-white/55 md:text-right">
-            <p>CNPJ da campanha: {CANDIDATE_INFO.cnpj}</p>
-            <p>© Copyright 2026 — Gubio Heringer</p>
+            <p>CNPJ da campanha, {CANDIDATE_INFO.cnpj}</p>
+            <p>© Copyright 2026, Gubio Heringer</p>
           </div>
         </div>
       </div>
